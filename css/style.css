@@ -271,7 +271,7 @@ features
 }
 #service
 {
-    background-color: #F3F4F8;
+    background-color:#F76300;
 }
 ul.service-list li i
 {
@@ -690,6 +690,10 @@ cta
     display: inline-block;
     transition: all 0.5s ease-in 0s;
 }
+.centradoTexto{
+    display: flex;
+    justify-content: center;
+}
 /***********************************
 ************************************
 Responsive media queries
@@ -713,7 +717,7 @@ Responsive media queries
 }
 @media (min-width: 20px) and (max-width: 450px) {
 .navbar-default .navbar-brand {
-    padding-left: 16px;
+    padding-left: 0px;
     margin-top: 0px;
 }
 .banner-info {
@@ -730,7 +734,9 @@ body{
 }
 .btn-download, .btn-more, .btn-download:hover, .btn-more:hover, .btn-download:focus, .btn-more:focus {
     font-size: 12px;
-    padding: 7px 18px;
+    padding: 15px 18px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 .wrap-item h3 {
     font-size: 18px;
